@@ -24,7 +24,6 @@ public class main {
 			if(acierto==true) {
 				int r=(int) Math.floor(Math.random()*7);
 				palabra=PALABRAS[r];
-				System.out.println(palabra);
 				char [] desordenada=palabra.toCharArray();
 				
 				 for (int i = 0;i<3*desordenada.length;i++){
@@ -35,7 +34,6 @@ public class main {
 					 desordenada[b] = c;
 		        }
 				adivina=String.valueOf(desordenada);
-				System.out.println(adivina);
 				acierto=false;
 			}
 			
